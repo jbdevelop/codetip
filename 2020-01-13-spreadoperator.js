@@ -1,11 +1,18 @@
-<script>
+let someData = {
+   stadium: 'Santiago Bernabéu',
+   coach: 'Zinedine Zidane'
+}
 
-let animals = ['Monkey', 'Lion', 'Elephant']
+let realMadrid = {
+   name: 'Real Madrid',
+   founded: 1902,
+   ...someData //... Spread Operator
+}
 
-let moreAnimals = ['Zebra', 'Lemur', 'Cheetah']
+console.log(realMadrid)
 
-let allAnimals = ['Hyena', ...animals, ...moreAnimals]
+let someAnimals = ['Monkey', 'Lion', 'Elephant']
+
+let allAnimals = ['Hyena', 'Zebra', 'Cheetah', ...someAnimals]
 
 console.log(allAnimals)
-
-</script>
