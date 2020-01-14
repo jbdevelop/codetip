@@ -13,6 +13,6 @@ console.log(realMadrid)
 
 let someAnimals = ['Monkey', 'Lion', 'Elephant']
 
-let allAnimals = ['Hyena', 'Zebra', 'Cheetah', ...someAnimals]
+let allAnimals = ['Hyena', 'Zebra', 'Cheetah', ...someAnimals] //... Spread Operator
 
 console.log(allAnimals)
