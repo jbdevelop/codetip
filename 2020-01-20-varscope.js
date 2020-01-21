@@ -3,14 +3,14 @@ console.log(x) // 10
 
 if (true) { let y = 10 }
 // y só existe dentro do escopo da estrutura condicional acima (if)
-//console.log(y) // Undefined
+console.log(y) // Undefined
 
 for (var i=3; i>0; i--) { /* Do Something... */ }
 console.log(i) // 0
 
 for (let j=3; j>0; j--) { /* Do Something... */ }
 // j só existe dentro do escopo da estrutura de repetição acima (for)
-//console.log(j) // Undefined 
+console.log(j) // Undefined 
 
 const person = {
    name: 'Julio',
