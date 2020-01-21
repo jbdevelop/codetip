@@ -3,7 +3,7 @@ console.log(x) // 10
 
 if (true) { let y = 10 }
 // y só existe dentro do escopo da estrutura condicional acima (if)
-console.log(y) // Undefined
+console.log(y) // Undefined 
 
 for (var i=3; i>0; i--) { /* Do Something... */ }
 console.log(i) // 0
