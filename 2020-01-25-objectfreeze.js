@@ -1,3 +1,10 @@
+/*
+O método 𝘖𝘣𝘫𝘦𝘤𝘵.𝘧𝘳𝘦𝘦𝘻𝘦() 'congela' o objeto dado, não permitindo mais a 
+adição/remoção de atributos/valores do objeto em questão. Se algum atributo 
+representar outro objeto, .𝘧𝘳𝘦𝘦𝘻𝘦() não irá proteger essa camada. Para isto, 
+temos que congelar também o atributo/objeto.  
+*/
+
 const car = {
    name: 'Bugatti',
    headquarters: 'Molsheim, France',

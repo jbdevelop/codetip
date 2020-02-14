@@ -1,3 +1,8 @@
+/* 
+Com Spread Operator é possível agregar objetos/arrays existentes em 
+outros de forma simples e elegante.  
+*/
+
 let someData = {
    stadium: 'Santiago Bernabéu',
    coach: 'Zinedine Zidane'

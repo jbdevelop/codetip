@@ -1,3 +1,9 @@
+/*
+O objeto 𝘚𝘦𝘵 permite armazenamento de valores únicos de qualquer tipo de dado 
+em seu conjunto. Podemos iniciá-lo vazio ou com algum valor diretamente através 
+do construtor. 
+*/
+
 let any = new Set() //Iniciando Set vazio
 
 let integer = new Set([1,2,3]) // Iniciando Set com valores (construtor)

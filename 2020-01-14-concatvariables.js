@@ -1,3 +1,5 @@
+/* Algumas formas de concatenar variáveis. */
+
 let tv = {
    manufacturer: 'Samsung',
    model: '43RU7100',

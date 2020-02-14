@@ -1,3 +1,9 @@
+/* 
+Destructuring ou desestruturação é uma feature bacana do ES6. Com ela, 
+recuperamos dados de objetos/vetores de forma tranquila e elegante, mantendo o 
+código enxuto e legível. 
+*/
+
 const estate = {
    address: 'Rua Simon Bolivar, 100',
    type: 'Casa',

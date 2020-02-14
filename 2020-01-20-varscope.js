@@ -1,3 +1,10 @@
+/*
+Declarou 𝘷𝘢𝘳 e teve problemas com escopo? Use 𝘭𝘦𝘵 para que funcione de 
+forma esperada. A declaração 𝘤𝘰𝘯𝘴𝘵 funciona de forma semelhante ao 𝘭𝘦𝘵, 
+mas não permite reatribuição de valor, a menos que a modificação seja feita 
+no atributo de um objeto. 
+*/
+
 if (true) { var x = 10 }
 console.log(x) // 10
 
