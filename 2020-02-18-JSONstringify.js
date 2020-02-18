@@ -20,7 +20,7 @@ console.log(JSON.stringify(insect))
 let types = {}
 
 const checkBoolean = JSON.stringify(insect, (key, value) => {
-   types[key] = typeof value //armazeno no objeto types os tipos de valores de insect
+   types[key] = typeof value //armazenando no objeto types os tipos de valores de insect
 
    return value
 })
