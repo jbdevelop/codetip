@@ -5,7 +5,7 @@ substituição/manipulação de conteúdo do objeto. No exemplo da 𝘤𝘢𝘭�
 a ideia é identificar os tipos de valores do objeto 𝘪𝘯𝘴𝘦𝘤𝘵 e armazená-los em 𝘵𝘺𝘱𝘦𝘴.
 */
 
-const insect = {
+const animal = {
    commonName: 'Aranha-marrom',
    scientificName: 'Loxosceles',
    class: 'Aracnídeo',
@@ -14,13 +14,13 @@ const insect = {
    venomous: true,
 }
 
-console.log(JSON.stringify(insect))
+console.log(JSON.stringify(animal))
 
 
 let types = {}
 
-const checkBoolean = JSON.stringify(insect, (key, value) => {
-   types[key] = typeof value //armazenando no objeto types os tipos de valores de insect
+const checkBoolean = JSON.stringify(animal, (key, value) => {
+   types[key] = typeof value //armazenando no objeto types os tipos de valores de animal
 
    return value
 })
@@ -28,4 +28,4 @@ const checkBoolean = JSON.stringify(insect, (key, value) => {
 console.log(types)
 
 
-console.log(JSON.stringify(insect, ['commonName', 'class']))
+console.log(JSON.stringify(animal, ['commonName', 'class']))
