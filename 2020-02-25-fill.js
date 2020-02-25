@@ -1,3 +1,9 @@
+/*
+Você já precisou preencher parte ou completamente um vetor com 
+um valor estático? Com o método fill, veremos que isto é mais fácil que parece.
+Agradecimento ao  Mauro Simoes por colaborar nos estudos deste método.
+*/
+
 const bestComposers = ['Bach', 'Chopin', 'Beethoven', 'Haydn', 'Vivaldi']
 
 // Substitui todos os elementos do vetor por 'Mozart'
