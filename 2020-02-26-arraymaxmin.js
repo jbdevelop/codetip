@@ -1,3 +1,11 @@
+/*
+Como retornar o maior e menor número de um vetor? As funções 
+Math.max() e Math.min() retornam o maior e menor números dentre a lista de 
+argumentos passada, mas naturalmente, vão falhar (NaN) se passarmos diretamente
+um vetor como argumento para essas funções. Podemos contornar isto de uma forma 
+prática, vamos ver?
+*/
+
 const numbers = [2, 4, 12, 1]
 
 //Spread
