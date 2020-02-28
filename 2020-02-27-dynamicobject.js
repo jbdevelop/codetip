@@ -1,3 +1,8 @@
+/*
+# Fast Tip #
+# Propriedade dinâmica em Objeto Javascript #
+*/
+
 const dynamic = 'kills'
 
 const character = {
