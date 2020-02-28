@@ -1,3 +1,8 @@
+/*
+# Fast Tip #
+# Slicing com array.length  #
+*/
+
 let so = ['Linux', 'MacOS', 'Windows', 'MS-DOS', 'Solaris']
 
 so.length = 3
