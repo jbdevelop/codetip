@@ -1,3 +1,10 @@
+/*
+O método includes() procura elementos dentro de um vetor e retorna true ou false, adequadamente.
+Parâmetros:
+𝘀𝗲𝗮𝗿𝗰𝗵𝗘𝗹𝗲𝗺𝗲𝗻𝘁 - O elemento a ser encontrado
+𝗳𝗿𝗼𝗺𝗜𝗻𝗱𝗲𝘅 - Opcional. A posição do array que iniciará a busca.
+*/
+
 function checkCarAvailable(car, startIndex = 0) {
    const carGroup = ['Versa', 'Polo', 'Sandero']
    
