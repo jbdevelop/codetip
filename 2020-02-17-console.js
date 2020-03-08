@@ -21,4 +21,3 @@ console.countReset('count') // Resetando a contagem para 'count'
 console.count('count') // count: 1
 
 console.clear() // Limpa o console
-
