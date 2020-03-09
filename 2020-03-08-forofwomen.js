@@ -1,3 +1,5 @@
+
+
 const women = [
    ['Amor', true], ['Carinho', true], ['Respeito', true], ['Justiça', true], 
    ['Felicidade', true], ['Dedicação', true], ['Bondade', true], 
