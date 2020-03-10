@@ -1,4 +1,10 @@
+/*
+# Fast Tip #
+# for...of #
 
+Para todas as mulheres, 
+um Feliz dia Internacional da Mulher!
+*/
 
 const women = [
    ['Amor', true], ['Carinho', true], ['Respeito', true], ['Justiça', true], 
