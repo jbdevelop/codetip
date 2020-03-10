@@ -1,3 +1,14 @@
+/*As funções apply() e call() são similares. A diferença está na assinatura 
+dos métodos, onde call aceita uma lista de argumentos e apply uma array 
+de argumentos:
+call(thisArg, arg1, arg2, ...)
+apply(thisArg, [args])
+
+Ambas determinam o contexto que uma função será executada. Ao passarmos um 
+objeto em thisArg, este será o this específico a ser usado numa 
+determinada função. 
+*/
+
 function printChessChampion(firstName, middleName, lastName) {
    console.log(`${this.knowAs} (${firstName} ${middleName} ${lastName})`, this.worldChampionIn) 
 }
