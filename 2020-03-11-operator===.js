@@ -11,3 +11,7 @@ console.log('7' == 7) // true
 console.log(10 === 10) // true
 
 console.log('5' === 5) // false
+
+console.log(typeof 5)
+
+console.log(typeof '5')
