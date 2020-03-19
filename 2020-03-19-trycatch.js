@@ -1,3 +1,11 @@
+/*
+Vamos falar sobre o bloco try...catch?
+
+try - testa um bloco de código e se falhar...
+catch - captura essa exceção lançada em try, entretanto...
+finally - implementado, sempre executará, com ou sem lançamento/captura de exceção. Vamos aos exemplos!
+*/
+
 // Vamos começar com um try...catch usual:
 try {
    throw Error('Crash!') // Exceção lançada.
