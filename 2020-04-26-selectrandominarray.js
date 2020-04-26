@@ -6,4 +6,4 @@ const random = responsiveWays[
    )
 ]
 
-console.log(random) // Um dos itens da array responsiveWays
+console.log(random) // Exibe um dos itens da array responsiveWays
