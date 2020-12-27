@@ -1,3 +1,5 @@
+// Vamos comparar rapidamente se dois objetos são estritamente iguais?
+
 const obj1 = [
   {
     id: 1,
