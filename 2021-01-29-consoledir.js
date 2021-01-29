@@ -1,3 +1,10 @@
+Existem algumas maneiras de inspecionar todos os níveis de um objeto com node.js. Uma que acho prática é com o uso de 'console.dir'.
+/* 
+  Existem algumas maneiras de inspecionar todos os níveis de um objeto 
+  com node.js. Uma que acho prática é com o uso de 'console.dir'.
+*/
+
+
 const player = [
   {
     born: "19 november 1888",
@@ -34,7 +41,7 @@ console.log(player);
 ]
 */
 
-// Passando como parâmetro depth: null, dir vai recursivamente ler todos os níveis de profundidade do objeto
+// depth: null vai recursivamente ler todos os níveis de profundidade do objeto
 console.dir(player, { depth: null });
 
 /* Output: 
