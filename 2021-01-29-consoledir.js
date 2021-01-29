@@ -1,9 +1,7 @@
-Existem algumas maneiras de inspecionar todos os níveis de um objeto com node.js. Uma que acho prática é com o uso de 'console.dir'.
 /* 
   Existem algumas maneiras de inspecionar todos os níveis de um objeto 
   com node.js. Uma que acho prática é com o uso de 'console.dir'.
 */
-
 
 const player = [
   {
